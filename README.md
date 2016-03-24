@@ -1,4 +1,4 @@
-# centrality-api
+# Centrality calculator
 
 This tools calculates [closeness centrality](https://en.wikipedia.org/wiki/Centrality#Closeness_centrality) for unweighted non-oriented graphs using a simple [BFS](https://en.wikipedia.org/wiki/Breadth-first_search) algorithm.
 
