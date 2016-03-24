@@ -25,7 +25,7 @@ Response example:
     "code": 0,
     "message": ""
   },
-  "closeness": 0.0056179776
+  "centrality": 0.0056179776
 }
 ```
 - /node-closeness/: GET service to retrieve an ordered list of edges by closeness centrality
@@ -65,4 +65,4 @@ The routes are defined in Router class using [Spark Framework](http://sparkjava.
 
 # Offline run
 
-The Main class shows an example to run the algorithm using an input text file (edges) and calculate closeness centrality for all nodes. 
+The Main class shows an example to run the algorithm using an input text file (edges) and calculate closeness centrality for all nodes.

@@ -1,6 +1,3 @@
-/**
- * Created by gabrielarruda on 23/03/16.
- */
 public class ExternalEdge {
 
     private Integer fromNode;

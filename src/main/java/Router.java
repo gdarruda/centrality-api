@@ -11,8 +11,6 @@ public class Router {
 
     public static void main(String[] args) {
 
-        get("/hello", (req, res) -> "Hello World");
-
         post("/add-edge", (request, response) -> {
 
             Gson gson = new Gson();
@@ -44,7 +42,7 @@ public class Router {
                 Float closeness = graph.getCentrality(node);
 
                 responseBody.add("error", formatJSONError(0,""));
-                responseBody.addProperty("closeness", closeness);
+                responseBody.addProperty("centrality", closeness);
             }
             else
             {
