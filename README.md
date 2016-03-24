@@ -61,6 +61,8 @@ Response example:
 ]
 ```
 
+The routes are defined in Router class using [Spark Framework](http://sparkjava.com).
+
 # Offline run
 
 The Main class shows an example to run the algorithm using an input text file (edges) and calculate closeness centrality for all nodes. 
